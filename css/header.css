@@ -45,6 +45,10 @@ header {
             top: 50%;
             right: 0%;
             transform: translate(0, -50%);
+<<<<<<< HEAD
+=======
+            text-decoration: none;
+>>>>>>> 0851e28f16434bdca5cb3c081353e2b59f47dd7a
             color: black;
             font-size: 12px;
             background-color: white;
