@@ -16,4 +16,10 @@
 }
 
 /* Note per trovare delle prorpietà ---------------------------- */
-/* Ho selezionato TUTTI i tag H2 nel file header.css/header-bottom
+/* Ho selezionato TUTTI i tag H2 nel file header.css/header-bottom */
+
+.btn {
+    text-decoration: none;
+    border-radius: 20px;
+    border-radius: 20px;
+}

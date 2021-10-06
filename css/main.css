@@ -35,6 +35,26 @@ main {
             font-size: 14px;
         }
 
-    section:last-child {
+    section:nth-last-child(2) {
         text-align: center;
     }
+
+    section:last-child {
+        padding-top: 50px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+        section svg {
+            display: block;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        section:last-child a {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: rgb(103, 117, 199);
+            padding: 10px 14px;
+            color: white;
+        }
+    
