@@ -1,0 +1,54 @@
+/* Inizio header ----------------------------------------------- */
+header {
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+    /* Inizio nav e logo --------------------------------------- */
+    nav {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        height: 80px;
+    }
+        #logo {
+            position: relative;
+            float: left;
+            width: 100px;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+
+        /* Inizio ul ------------------------------------------- */
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+        nav a:not(:first-child) {
+            margin-left: 25px;
+        }
+            ul {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            ul, li {
+                display: inline-block;
+            }
+
+        /* Inizio a class="btn" -------------------------------- */
+        nav .btn {
+            position: relative;
+            float: right;
+            top: 50%;
+            right: 0%;
+            transform: translate(0, -50%);
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            background-color: white;
+            padding: 7px 10px;
+            border-radius: 20px;
+        }
