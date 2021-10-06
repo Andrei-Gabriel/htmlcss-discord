@@ -17,7 +17,7 @@ header {
             width: 20%;
             float: left;
         }
-        #logo img {
+        #logo #on-header {
             vertical-align: middle;
             width: 100px;
         }
