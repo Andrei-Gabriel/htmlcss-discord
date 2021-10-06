@@ -1,0 +1,27 @@
+/* Inizo main -------------------------------------------------- */
+main {
+    height: 1000px;
+    background-color: lightgrey;
+}
+    section {
+        width: 65%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    section div {
+        float: left;
+    }
+    .sec-img {
+        width: 60%;
+    }
+        .sec-img img {
+            width: 100%;
+        }
+    .sec-text {
+        width: 30%;
+        padding-top: 20px;
+        margin-left: 10%;
+    }
+        .sec-text p {
+            font-size: 14px;
+        }
