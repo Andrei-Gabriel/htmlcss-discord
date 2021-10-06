@@ -1,5 +1,6 @@
 /* Inizio header ----------------------------------------------- */
 header {
+    position: relative;
     height: 500px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -50,3 +51,38 @@ header {
                 border-radius: 20px;
                 text-decoration: none;
             }
+
+/* Inizio header-bottom ---------------------------------------- */
+#header-bottom {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+    h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    #header-bottom p {
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+    #header-bottom a {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+    #header-bottom #mac {
+        background-color: white;
+        color: black;
+    }
+    #header-bottom #browser {
+        background-color: rgb(15, 15, 15);
+        color: white;
+    }
