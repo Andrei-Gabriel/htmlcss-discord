@@ -1,8 +1,7 @@
 /* Inizo main -------------------------------------------------- */
 main {
-    height: 1000px;
-    background-color: lightgrey;
 }
+    /* Inizio section */
     section {
         width: 65%;
         margin: auto;
@@ -14,14 +13,14 @@ main {
     .pari div {
         float: right;
     }
-
+    /* Proprietà parte img ------------------------------------- */
     .sec-img {
         width: 60%;
     }
         .sec-img img {
             width: 100%;
         }
-
+    /* Proprietà parte text ------------------------------------ */
     .sec-text {
         width: 35%;
         padding-top: 20px;
@@ -35,3 +34,7 @@ main {
         .sec-text p {
             font-size: 14px;
         }
+
+    section:last-child {
+        text-align: center;
+    }
