@@ -11,17 +11,27 @@ main {
     section div {
         float: left;
     }
+    .pari div {
+        float: right;
+    }
+
     .sec-img {
         width: 60%;
     }
         .sec-img img {
             width: 100%;
         }
+
     .sec-text {
-        width: 30%;
+        width: 35%;
         padding-top: 20px;
-        margin-left: 10%;
     }
+    .sec-text:not(.pari .sec-text) {
+        margin-left: 5%;
+    }
+        .pari .sec-text {
+            margin-right: 5%;
+        }
         .sec-text p {
             font-size: 14px;
         }
