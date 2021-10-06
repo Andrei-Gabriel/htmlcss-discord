@@ -7,51 +7,46 @@ header {
     /* Inizio nav e logo --------------------------------------- */
     nav {
         position: relative;
-        width: 80%;
+        width: 70%;
         margin: auto;
-        height: 80px;
+        height: 60px;
+        line-height: 60px;
     }
         #logo {
-            position: relative;
+            width: 20%;
             float: left;
+        }
+        #logo img {
+            vertical-align: middle;
             width: 100px;
-            top: 50%;
-            transform: translate(0, -50%);
         }
 
         /* Inizio ul ------------------------------------------- */
-        nav a {
-            text-decoration: none;
-            color: white;
-            font-size: 14px;
+        #menu {
+            width: 60%;
+            float: left;
+            text-align: center;
         }
-        nav a:not(:first-child) {
-            margin-left: 25px;
-        }
-            ul {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
             ul, li {
                 display: inline-block;
             }
+            #menu a {
+                margin: 0 20px;
+                color: white;
+                font-size: 12px;
+            }
 
-        /* Inizio a class="btn" -------------------------------- */
-        nav .btn {
-            position: relative;
-            float: right;
-            top: 50%;
-            right: 0%;
-            transform: translate(0, -50%);
-<<<<<<< HEAD
-=======
-            text-decoration: none;
->>>>>>> 0851e28f16434bdca5cb3c081353e2b59f47dd7a
-            color: black;
-            font-size: 12px;
-            background-color: white;
-            padding: 7px 10px;
-            border-radius: 20px;
+        /* Inizio btn ------------------------------------------ */
+        #accedi {
+            width: 20%;
+            float: left;
+            text-align: right;
         }
+            #accedi a {
+                color: black;
+                font-size: 12px;
+                background-color: white;
+                padding: 7px 10px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
