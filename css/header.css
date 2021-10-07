@@ -36,8 +36,9 @@ header {
                 color: white;
                 font-size: 12px;
                 padding: 7px 10px;
+                /* La lista deve avere l'rdine ul > li > <tag> altri su w3c validator dà warning */
+                text-decoration: none;
             }
-
         /* Inizio btn ------------------------------------------ */
         #accedi {
             width: 20%;
